@@ -1,0 +1,17 @@
+[
+    {
+        "product_name": "CdAdm Web",
+        "description": "Descrição CdAdm Web",
+        "features": "Relatórios Personalizados"
+    },
+    {
+        "product_name": "CdAdm Web",
+        "description": "Descrição CdAdm Web",
+        "features": "Controle Financeiro"
+    },
+    {
+        "product_name": "CdAdm Web",
+        "description": "Descrição CdAdm Web",
+        "features": "Integração Com Site"
+    }
+]

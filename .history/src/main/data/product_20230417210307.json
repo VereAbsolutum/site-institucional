@@ -1,0 +1,58 @@
+[
+    {
+        "product_name": "CdAdm Web",
+        "description": "Descrição CdAdm Web",
+        "imageUrl": "/cdadmweb",
+        "ctaHref": "",
+        "features": [
+            {
+                "title": "Relatórios Personalizados",
+                "description": "Crie relatórios personalizados para suas necessidades específicas."
+            },
+            {
+                "title": "Controle Financeiro",
+                "description": "Gerencie suas finanças de forma eficiente e simples."
+            },
+            {
+                "title": "Integração Com Site",
+                "description": "Integre facilmente o CdAdm Web com seu site existente."
+            }
+        ]
+    },
+    {
+        "product_name": "CdAdm Grafico",
+        "description": "Descrição CdAdm Web",
+        "features": [
+            {
+                "title": "Relatórios Personalizados",
+                "description": "Crie relatórios personalizados para suas necessidades específicas."
+            },
+            {
+                "title": "Controle Financeiro",
+                "description": "Gerencie suas finanças de forma eficiente e simples."
+            },
+            {
+                "title": "Integração Com Site",
+                "description": "Integre facilmente o CdAdm Web com seu site existente."
+            }
+        ]
+    },
+    {
+        "product_name": "CdFin",
+        "description": "Descrição CdAdm Web",
+        "features": [
+            {
+                "title": "Relatórios Personalizados",
+                "description": "Crie relatórios personalizados para suas necessidades específicas."
+            },
+            {
+                "title": "Controle Financeiro",
+                "description": "Gerencie suas finanças de forma eficiente e simples."
+            },
+            {
+                "title": "Integração Com Site",
+                "description": "Integre facilmente o CdAdm Web com seu site existente."
+            }
+        ]
+    }
+]

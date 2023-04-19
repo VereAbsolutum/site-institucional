@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=lexend+Deca:300,500,600|Playfair+Display:500");
+
+:root {
+    --font-family-lexend_deca: "Lexend Deca";
+    --font-family-playfair_display: "Playfair Display";
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

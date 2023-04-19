@@ -1,0 +1,71 @@
+import React from 'react';
+import { Header, LinkBorderPrimary, LinkPrimary, TextDisplay, TextHeading2, TextMenu, TextParagraph } from '../../components';
+import ProductCard from '../../components/card/product-card';
+import { productCardData } from './components';
+
+const home: React.FC = () => {
+    return (
+        <>
+            <Header />
+            <main>
+                <section className='container py-12 mb-32'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2'>
+                        <div className='grid grid-cols-1 gap-4'>
+                            <h1>
+                                <TextDisplay>
+                                    Cresça com mais qualidade com a SCordon
+                                </TextDisplay>
+                            </h1>
+                            <p className='mb-4 pr-12'>
+                                <TextParagraph>
+                                    Softwares robustos e intuitivos. Integre seus dados, colaboradores e clientes em uma plataforma de CRM escalável que evolui junto com o seu negócio.
+                                </TextParagraph>
+                            </p>
+                            <div>
+                                <LinkPrimary className='py-4 block md:inline-block text-center lg:text-left hidden'>
+                                    Começe agora e peça uma demonstração
+                                </LinkPrimary>
+                                <LinkPrimary className='py-4 block md:hidden text-center lg:text-left'>
+                                    Peça uma demonstração
+                                </LinkPrimary>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className='container py-20 mb-32'>
+                    <div className='flex justify-center flex-col-1'>
+                        <h2>
+                            <TextHeading2>
+                                Quem é a SCordon
+                            </TextHeading2>
+                        </h2>
+                        <p>
+                            <TextParagraph>
+                                A Sistemas CORDON é especializada no setor de TI, criando soluções inovadoras para as áreas administrativa e comercial. Voltada para as demandas do mercado, desenvolve ferramentas que solucionam de maneira eficaz os desafios apresentados, destacando-se principalmente em sistemas voltados para a administração de bens e contratos.
+                            </TextParagraph>
+                        </p>
+                        <div className='flex justify-center gap-4'>
+                            <LinkPrimary>
+                                <TextMenu>
+                                    Peça uma demonstração
+                                </TextMenu>
+                            </LinkPrimary>
+                            <LinkBorderPrimary>
+                                <TextMenu>
+                                    Conheça mais a SCordon
+                                </TextMenu>
+                            </LinkBorderPrimary>
+                        </div>
+                    </div>
+                    <div className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
+                        {productCardData && productCardData.map((data, index) =>
+                            <ProductCard {...data} />
+                        )}
+                    </div>
+                </section>
+            </main>
+        </>
+    );
+};
+
+export default home;
