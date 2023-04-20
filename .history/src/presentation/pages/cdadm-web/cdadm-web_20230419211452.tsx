@@ -213,7 +213,7 @@ const cdadmWeb: React.FC = () => {
                                         {question.description}
                                     </Accordion>
                                 )
-                            }
+                            )}
                         </div>
                     </div>
                 </section>

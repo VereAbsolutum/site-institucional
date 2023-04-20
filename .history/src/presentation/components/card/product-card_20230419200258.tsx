@@ -3,6 +3,15 @@ import React from 'react';
 import { LinkPrimary, List, TextCaption, TextParagraph, TextParagraphSmall } from '..';
 import { ProductData } from '../../pages/types';
 
+// export type ProductCardProps = {
+//     imageUrl: string;
+//     title: string;
+//     description: string;
+//     features: string[];
+//     ctaText: string;
+//     ctaHref: string;
+// };
+
 export type ProductCardProps = {
     productData: ProductData
 }

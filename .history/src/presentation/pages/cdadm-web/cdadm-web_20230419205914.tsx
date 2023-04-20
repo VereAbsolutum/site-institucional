@@ -14,28 +14,28 @@ export type Pergunta = {
 const cdadmWeb: React.FC = () => {
     const [activeTab, setActiveTab] = useState(0);
 
-    // const perguntasFrequentes: Pergunta[] = [
-    //     {
-    //         title: 'Pergunta',
-    //         content: 'Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    //     },
-    //     {
-    //         title: 'Pergunta',
-    //         content: 'Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    //     },
-    //     {
-    //         title: 'Pergunta',
-    //         content: 'Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    //     },
-    //     {
-    //         title: 'Pergunta',
-    //         content: 'Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    //     },
-    //     {
-    //         title: 'Pergunta',
-    //         content: 'Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    //     },
-    // ]
+    const perguntasFrequentes: Pergunta[] = [
+        {
+            title: 'Pergunta',
+            content: 'Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        },
+        {
+            title: 'Pergunta',
+            content: 'Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        },
+        {
+            title: 'Pergunta',
+            content: 'Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        },
+        {
+            title: 'Pergunta',
+            content: 'Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        },
+        {
+            title: 'Pergunta',
+            content: 'Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        },
+    ]
 
     return (
         <>
@@ -206,14 +206,11 @@ const cdadmWeb: React.FC = () => {
                             </TextHeading2>
                         </h2>
                         <div className='grid gap-4'>
-                            {products && products
-                                .find(product => product.product_name == "CdAdm Web")?.questions
-                                .map((question, index) =>
-                                    <Accordion key={index} title={question.title}>
-                                        {question.description}
-                                    </Accordion>
-                                )
-                            }
+                            {perguntasFrequentes && perguntasFrequentes.map((pergunta, index) =>
+                                <Accordion key={index} title={pergunta.title}>
+                                    {pergunta.content}
+                                </Accordion>
+                            )}
                         </div>
                     </div>
                 </section>

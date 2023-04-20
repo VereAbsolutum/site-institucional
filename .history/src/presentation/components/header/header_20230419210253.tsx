@@ -11,7 +11,7 @@ import { MainMenu, MobileMenu } from './components'
 import { ContactModal, LinkPrimary, TextMenu } from '..'
 
 const products = [
-    { name: 'CdAdm Web', description: 'Get a better understanding of your traffic', href: '/cdadmweb', icon: ChartPieIcon },
+    { name: 'CdAdm Web', description: 'Get a better understanding of your traffic', href: 'cdadmweb', icon: ChartPieIcon },
     { name: 'CdAdm Grafico', description: 'Speak directly to your customers', href: 'cdAdmgrafico', icon: CursorArrowRaysIcon },
     { name: 'CdFin', description: 'Your customers’ data will be safe and secure', href: 'cdfin', icon: FingerPrintIcon }
 ]

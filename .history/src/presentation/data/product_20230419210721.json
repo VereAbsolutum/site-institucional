@@ -18,28 +18,6 @@
                 "description": "Integre facilmente o CdAdm Web com seu site existente."
             }
         ],
-        "questions": [
-            {
-                "title": "Pergunta",
-                "description": "AQUI Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            {
-                "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            {
-                "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            {
-                "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            {
-                "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            }
-        ]
     },
     {
         "product_name": "CdAdm Grafico",
@@ -63,23 +41,23 @@
         "questions": [
             {
                 "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                "content": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             },
             {
                 "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                "content": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             },
             {
                 "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                "content": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             },
             {
                 "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                "content": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             },
             {
                 "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                "content": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             }
         ]
     },
@@ -100,28 +78,6 @@
             {
                 "title": "Integração Com Site",
                 "description": "Integre facilmente o CdAdm Web com seu site existente."
-            }
-        ],
-        "questions": [
-            {
-                "title": "Pergunta",
-                "description": "Aqui"
-            },
-            {
-                "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            {
-                "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            {
-                "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            {
-                "title": "Pergunta",
-                "description": "Resposta para a pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             }
         ]
     }

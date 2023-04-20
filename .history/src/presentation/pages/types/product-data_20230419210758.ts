@@ -4,15 +4,10 @@ export type ProductData = {
     features: Features[],
     svgIcon?: string,
     ctaHref: string
-    questions: Question[]
+    questions: string[]
 };
 
 export type Features = {
-    title: string,
-    description: string
-}
-
-export type Question = {
     title: string,
     description: string
 }

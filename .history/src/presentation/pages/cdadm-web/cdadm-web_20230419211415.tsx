@@ -207,13 +207,13 @@ const cdadmWeb: React.FC = () => {
                         </h2>
                         <div className='grid gap-4'>
                             {products && products
-                                .find(product => product.product_name == "CdAdm Web")?.questions
-                                .map((question, index) =>
+                                .find(product => product.product_name == "CdAdm Web") ?
+                            .questions.map((question, index) =>
                                     <Accordion key={index} title={question.title}>
                                         {question.description}
                                     </Accordion>
                                 )
-                            }
+                            )}
                         </div>
                     </div>
                 </section>
